@@ -114,6 +114,120 @@
 
   .validation {
     margin-top: 40px; } }
+
+    /*For tablet*/
+    @media screen and (min-width: 640px) and (max-width:1200px){
+      body {
+        background-image: url("../medias/background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover; }
+    
+      .text {
+        text-align: center;
+        color: white; }
+    
+      .btn {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        width: 250px;
+        height: 50px; }
+    
+      .userMail {
+        width: 800px;
+        height: 30px;
+        margin-bottom: 30px; }
+    
+      .destinataireMail {
+        width: 800px;
+        height: 30px;
+        margin-bottom: 30px; }
+    
+      .textarea {
+        width: 800px;
+        height: 200px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px; }
+    
+      .logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 100px; }
+    
+      .message {
+        text-align: center;
+        margin-top: 100px;
+        font-size: 24px;
+        color: white; }
+    
+      .message1 {
+        color: #FF0000;
+        text-align: center;
+        margin-top: 100px;
+        font-size: 24px; }
+    
+      .validation {
+        margin-top: 40px;
+        width: 10%;
+        height: 10%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto; }
+    
+      h2 {
+        text-align: center;
+        color: white; }
+    
+      .slogan {
+        color: white;
+        font-size: 25px;
+        text-align: center; }
+    
+      .download {
+        width: 75px;
+        height: 75px;
+        align-content: center;
+        text-align: center; }
+    
+      .lien {
+        display: block;
+        margin-left: auto;
+        margin-right: auto; }
+    
+      .parc {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        width: 500px;
+        height: 50px;
+        text-align: center; 
+      }
+      .title {
+        text-align: center; }
+      
+      .slogan {
+        text-align: center; }
+      
+      .logoAccueil {
+        display: block;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto; }
+      
+      .form {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center; } 
+    }
+
+    /*For PC */
 @media screen and (min-width: 1200px) {
   body {
     background-image: url("../medias/background.jpg");
