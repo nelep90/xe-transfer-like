@@ -28,12 +28,10 @@ if (isset($_FILES['upFile'])){
      $lastidfile = lastIdFile(); //fonctionne, récupère derniere ligne dans la table file //
      $lastiddest = lastIdDest(); //fonctionne, récupère derniere ligne dans la table destinataire //
      
-   
-     var_dump ($lastiduser['lastIdUser']); 
-     var_dump ($lastidfile);
-     var_dump ($message);
-     var_dump ($destinatairemail);
-     var_dump ($usermail);
+     deleteOlderColumn();
+     
+   var_dump(deleteOlderColumn);
+     
      userSend($lastiduser['lastIdUser'], $lastidfile['lastIdFile'], $lastiddest['lastIdDest'],$message, $date);
      
      $to = $destinatairemail;
